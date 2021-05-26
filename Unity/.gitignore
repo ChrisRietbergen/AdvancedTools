@@ -1,0 +1,10 @@
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.DS_store
+
+VRTestScene/Library
+VRTestScene/Temp
+VRTestScene/.vs/

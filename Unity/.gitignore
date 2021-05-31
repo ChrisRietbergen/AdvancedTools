@@ -5,6 +5,13 @@
 *.userprefs
 *.DS_store
 
-VRTestScene/Library
-VRTestScene/Temp
 VRTestScene/.vs/
+
+VRTestScene/[Ll]ibrary/
+VRTestScene/[Tt]emp/
+VRTestScene/[Oo]bj/
+VRTestScene/[Bb]uild/
+VRTestScene/[Bb]uilds/
+VRTestScene/[Ll]ogs/
+VRTestScene/Assets/AssetStoreTools*
+VRTestScene/[Aa]ssets/[Oo]culus

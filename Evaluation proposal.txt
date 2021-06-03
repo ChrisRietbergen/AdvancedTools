@@ -1,0 +1,16 @@
+I will be comparing FPS during collisions of a variable amount of objects using mesh colliders, 
+in both Unity and Unreal using VR,
+to determine which is the best optimized for a physics-based VR game. 
+
+For the test cases, there will be 3 sets of tests potentially with an additional set of tests if time and hardware allows.  
+The tests will be using 3 different models, each using a mesh collider. 
+These models used will be a cube, a sphere, and a complex mesh (monkey head), each made using Blender's own basic objects. 
+I will specifically be using mesh colliders. No box colliders for the cubes, or sphere colliders for the spheres
+This is for the sake of consistency, and for the purpose of testing the FPS using complex shapes, as these are more common in VR games than basic shapes.
+If possible, I will conduct a fourth test mixing these models throughout the test
+
+For the sample sizes I will be putting the objects equally spaced from each other, in a 3-dimensional grid. 
+The sample sizes will be a 10x10x10 grid, a 20x20x20 grid, a 50x50x50 grid and, if hardware allows, a 100x100x100 grid. 
+
+I will be measuring the FPS for these test cases and taking an average of them to put in the graphs. 
+If there is a notable deviation (for example, if once all the objects have fallen and become static, and the FPS increases) then additional graphs may be made to show FPS over time. 

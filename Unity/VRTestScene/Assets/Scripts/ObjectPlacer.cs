@@ -44,6 +44,7 @@ public class ObjectPlacer : MonoBehaviour
 		}
 	}
 
+	//Places all objects according to specifications
 	private void PlaceObjects(int x, int y, int z)
 	{
 		for (int i =  -(x/2); i <= (x/2); i++)//Offset them along the X axis to make them all in screen

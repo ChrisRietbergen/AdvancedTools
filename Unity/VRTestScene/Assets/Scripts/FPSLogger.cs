@@ -28,7 +28,7 @@ public class FPSLogger : MonoBehaviour
 		//Debug.Log("Current FPS is at " + text.text);
 	}
 
-
+	//Log average of the past x seconds in which x is set in the inspector
 	private void LogAverageFPS()
 	{
 		Debug.Log($"Average FPS for the past {loggingInterval} seconds at : {Time.time.ToString()} seconds in is at {loggedFPS.Average().ToString()} FPS");

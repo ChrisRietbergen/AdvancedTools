@@ -16,6 +16,11 @@ public class ObjectPlacer : MonoBehaviour
 		ClearAll();
 		PlaceObjects(10, 10, 10);
 	}
+	public void Place15x15x15()
+	{
+		ClearAll();
+		PlaceObjects(15, 15, 15);
+	}
 	public void Place20x20x20()
 	{
 		ClearAll();

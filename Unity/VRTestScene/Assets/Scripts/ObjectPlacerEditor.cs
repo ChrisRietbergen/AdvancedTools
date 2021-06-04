@@ -17,6 +17,10 @@ public class ObjectPlacerEditor : Editor
 		{
 			objectPlacer.Place10x10x10();
 		}
+		if (GUILayout.Button("Place 15x15x15"))
+		{
+			objectPlacer.Place15x15x15();
+		}
 		if (GUILayout.Button("Place 20x20x20"))
 		{
 			objectPlacer.Place20x20x20();

@@ -50,30 +50,30 @@
 115: 18
 120: 18
 ---20x20x20---
-5:
-10:
-15:
-20:
-25:
-30:
-35:
-40:
-45:
-50:
-55:
-60:
-65:
-70:
-75:
-80:
-85:
-90:
-95:
-100:
-105:
-110:
-115:
-120:
+5:   3 (9) -Note: I am noting down the actual FPS that I counted manually with the FPS counter's amount in parenthesis
+10:  3 (8) -Note (cont): I do this because the FPS counter is inaccurate and shows 8.0 FPS even when I can visibly count the frames to be less than that
+15:  3 (8)
+20:  3 (8)
+25:  4 (8)
+30:  5 (8)
+35:  8
+40:  8
+45:  9
+50:  9
+55:  9
+60:  9
+65:  9
+70:  9
+75:  9
+80:  9
+85:  9
+90:  9
+95:  9
+100: 9
+105: 9
+110: 9
+115: 9
+120: 9
 =====Sphere=====
 ---10x10x10---
 5:   9
